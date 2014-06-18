@@ -102,7 +102,7 @@ public class BinaryTree implements BinaryTreeInterface {
 
 	@Override
 	public boolean isInternal(int i) {
-		return (hasLeft(i) && hasRight(i));
+		return (hasLeft(i) || hasRight(i));
 
 	}
 	public void swap(int index1, int index2)
